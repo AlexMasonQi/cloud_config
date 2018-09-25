@@ -1,1 +1,3 @@
 rootProject.name = 'cloud'
+include 'microservice-config-server'
+

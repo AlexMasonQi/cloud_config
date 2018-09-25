@@ -1,0 +1,12 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: microservice-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: http://47.104.84.122:10080/AlexDva/spring-cloud-config-repo.git
+          username: americaf35@Outlook.com
+          password: becauseofyou7
