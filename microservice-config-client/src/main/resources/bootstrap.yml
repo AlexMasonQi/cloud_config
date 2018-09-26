@@ -3,6 +3,7 @@ spring:
     name: microservice-foo
   cloud:
     config:
-      uri: http://localhost:8080/
+      uri: http://config-server:8080/
       profile: dev
       label: master
+      name: microservice-foo
