@@ -14,7 +14,7 @@ repositories {
     mavenCentral()
 }
 
-allprojects{
+allprojects {
     apply plugin: 'java'
     apply plugin: 'eclipse'
     apply plugin: 'org.springframework.boot'
@@ -22,7 +22,7 @@ allprojects{
 
     group = 'com.alex'
     version = '1.0.0'
-    sourceCompatibility = 10
+    sourceCompatibility = 11
 
     dependencies {
         compile('org.springframework.boot:spring-boot-starter')

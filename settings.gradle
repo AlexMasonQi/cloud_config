@@ -1,3 +1,4 @@
 rootProject.name = 'cloud'
 include 'microservice-config-server'
+include 'microservice-config-client'
 
