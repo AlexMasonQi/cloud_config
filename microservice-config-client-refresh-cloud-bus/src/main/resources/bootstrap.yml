@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: microservice-foo
+  cloud:
+    config:
+      uri: http://config-server:8082/
+      profile: dev
+      label: master
+      name: microservice-foo
+    bus:
+      trace:
+        enabled: true
+      enabled: true
+  rabbitmq:
+    host: 47.92.157.135
+    port: 5672
+    username: guest
+    password: guest
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

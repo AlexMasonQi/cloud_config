@@ -27,5 +27,6 @@ allprojects {
     dependencies {
         compile('org.springframework.boot:spring-boot-starter')
         testCompile('org.springframework.boot:spring-boot-starter-test')
+        compile 'com.alibaba:fastjson:1.2.49'
     }
 }
